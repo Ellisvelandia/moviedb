@@ -9,11 +9,11 @@ const MovieList = () => {
 
   useEffect(() => {
     getData()
-  },[])
+  }, []);
 
   useEffect(() => {
-    getData()
-  },[type])
+    getData();
+  }, [type]);
 
   const getData = () => {
     fetch(

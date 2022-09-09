@@ -4,16 +4,16 @@ import Cards from "../card/Card";
 import "./MovieList.css";
 
 const MovieList = () => {
-  const [movieList, setMovieList] = useState([]);
+  const [movieList, setMovieList] = useState([true]);
   const { type } = useParams();
 
   useEffect(() => {
-    getData()
-  },[])
+    getData();
+  }, []);
 
   useEffect(() => {
-    getData()
-  },[type])
+    getData();
+  }, [type]);
 
   const getData = () => {
     fetch(
