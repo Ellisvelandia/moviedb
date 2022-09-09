@@ -8,12 +8,12 @@ const MovieList = () => {
   const { type } = useParams();
 
   useEffect(() => {
-    getData()
-}, [])
+    getData();
+  },);
 
-useEffect(() => {
-    getData()
-}, [type])
+  useEffect(() => {
+    getData();
+  }, [typee]);
 
   const getData = () => {
     fetch(
