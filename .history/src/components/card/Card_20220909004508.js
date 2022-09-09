@@ -34,10 +34,10 @@ const Cards = ({ movie }) => {
               alt={movie.name}
             />
             <div className="cards__overlay">
-              <div className="card__title">
+              <div className="cards__title">
                 {movie ? movie.original_title : ""}
               </div>
-              <div className="card__runtime">
+              <div className="cards__runtime">
                 {movie ? movie.release_date : ""}
                 <span className="card_rating">
                   {movie ? movie.vote_average : ""}

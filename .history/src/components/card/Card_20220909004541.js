@@ -34,7 +34,7 @@ const Cards = ({ movie }) => {
               alt={movie.name}
             />
             <div className="cards__overlay">
-              <div className="card__title">
+              <div className="cards__title">
                 {movie ? movie.original_title : ""}
               </div>
               <div className="card__runtime">
