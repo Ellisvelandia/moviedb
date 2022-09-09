@@ -43,13 +43,9 @@ const Home = () => {
               </div>
               <div className="posterImage__runtime">
                 {movie ? movie.release_date : ""}
-                <span>
-                  {movie ? movie.vote_average : ""}
-                  <i className="fas fa-start" />
+                <span>{movie ? movie.vote_average : ""}
+                <i className/>
                 </span>
-              </div>
-              <div className="posterImage__description">
-                {movie ? movie.overview : ""}
               </div>
             </div>
           </Link>

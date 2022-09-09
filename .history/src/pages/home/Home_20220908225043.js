@@ -48,9 +48,8 @@ const Home = () => {
                   <i className="fas fa-start" />
                 </span>
               </div>
-              <div className="posterImage__description">
-                {movie ? movie.overview : ""}
-              </div>
+              <div className="posterImage__description">{</div>
+
             </div>
           </Link>
         ))}
